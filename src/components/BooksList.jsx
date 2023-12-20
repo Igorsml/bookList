@@ -13,8 +13,8 @@ export const BooksList = () => {
 
   return (
     <>
-      <h3>{pages && `Total pages count: ${pages}`}</h3>
-      <h3>{pages && `Total books count: ${books.length}`}</h3>
+      <h3>{"" && `Total pages count: ${pages}`}</h3>
+      <h3>{"" && `Total books count: ${books.length}`}</h3>
       <div className="books-list">
         {books.length ? (
           books.map((book) => (
